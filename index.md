@@ -20,19 +20,7 @@ layout: main
                         </a>
                     </div>
                 {% endif %}
-                <div class="box-info">
-                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
-              
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">
-                            {{ post.title }}
-                        </h2>
-                    </a>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                        <p class="description">{{ post.introduction }}</p>
-                    </a>
-                   
-                </div>
+               
             </div>
         </article>
     {% endfor %}
