@@ -17,10 +17,8 @@ layout: main
                 {% endif %}
                
             </div>
-              <span class="category">
-                <a href="{{ site.url }}{{ site.baseurl }}/categoria/{{ post.category }}">
-                    <span>{{ post.category }}</span>
-                </a>
+              <span class="title">
+              {{ post.title}}
             </span>
         </article>
     {% endfor %}
