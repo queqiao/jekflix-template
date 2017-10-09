@@ -2,7 +2,7 @@
 layout: post
 title: "Fazendo um formulário de Contato no Jekyll com Vue.js"
 date: 2017-08-07 23:04:08
-image: ''
+image: 'message.gif'
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 category: 'tutorial'
 tags:
