@@ -12,7 +12,7 @@ layout: main
                         {% include new-post-tag.html date=post.date %}
                         <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                             
-                             <img src="1.png" class="preload">
+                             <img src="{{post.image}}" class="preload">
                         
                         </a>
                     </div>
