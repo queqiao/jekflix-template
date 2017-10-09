@@ -33,11 +33,7 @@ layout: main
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                         <p class="description">{{ post.introduction }}</p>
                     </a>
-                    <div class="tags">
-                        {% for tag in post.tags %}
-                            <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
-                        {% endfor %}
-                    </div>
+                   
                 </div>
             </div>
         </article>
